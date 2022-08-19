@@ -1,0 +1,8 @@
+.bg {
+  @apply py-32 text-white bg-fixed;
+  background-image: url("/Testimonial/Design/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.3); /* Tint color */
+}

@@ -1,0 +1,43 @@
+.container {
+  @apply bg-main-dark;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.list {
+  color: #fff;
+  font-size: 1rem /* 20px */;
+  line-height: 1.75rem; /* 28px */
+}
+
+.list_item {
+  padding-left: 1rem /* 16px */;
+
+  padding-top: 1rem /* 8px */;
+}
+.list_item:hover {
+  @apply text-main;
+}
+
+.text {
+  display: flex;
+}
+.icon {
+  padding-left: 0.25rem /* 4px */;
+  padding-right: 0.25rem /* 4px */;
+  justify-content: center;
+}
+
+
+
+
+@media (min-width: 640px) {
+  .list {
+    display: flex;
+    font-size: 1.125rem;
+  }
+}
+
+

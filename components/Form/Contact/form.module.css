@@ -1,0 +1,14 @@
+.name{
+  @apply appearance-none block w-full bg-gray-200 text-gray-700 border-transparent  rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:ring-0 focus:border-main ;
+}
+.email{
+  @apply appearance-none block w-full bg-gray-200 text-gray-700 border-transparent  rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:ring-0 focus:border-main ;
+}
+
+.onderwerp{
+  @apply appearance-none block w-full bg-gray-200 text-gray-700 border-transparent  rounded py-3 px-4 mb-3 leading-tight focus:outline-none  focus:bg-white focus:ring-0 focus:border-main
+}
+/* .message{
+  @apply  no-resize appearance-none block w-full bg-white border-transparent  py-3 px-4 mb-3 leading-tight   h-48 resize-none;
+  @layer
+} */

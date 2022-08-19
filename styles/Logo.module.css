@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.container h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  padding: 2rem;
+}
+
+
+.features_container{
+  display: flex;
+  justify-content: center;
+}
+.features_container h2{
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+.features ul {
+  width: 25rem;
+}
+
+.icon{
+  @apply text-main;
+  margin-right: 0.25rem;
+}

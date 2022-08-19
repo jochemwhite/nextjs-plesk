@@ -1,0 +1,38 @@
+.container {
+    @apply bg-[#222];
+    color: white;
+     
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.payment {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment h1{
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+}
+
+.copyright {
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.copyright a{
+    @apply text-main;
+}
+
+@media (min-width: 1024px){
+    .container{
+        display: grid;       
+    }
+}

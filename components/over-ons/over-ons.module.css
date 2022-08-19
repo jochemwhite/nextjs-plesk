@@ -1,0 +1,33 @@
+.title {
+	margin-bottom: 20px;
+	color: #999;
+	letter-spacing: 4px;
+	line-height: 3, 5rem;
+	font-weight: lighter;
+	font-size: 3rem;
+}
+
+.subtitle {
+	margin-bottom: 40px;
+	color: #bbb;
+	letter-spacing: 2px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.texttitle {
+    font-size: 25px;
+	color: #777;
+	font-weight: lighter;
+	margin-bottom: 2.5rem;
+	letter-spacing: 2px;
+}
+
+.text {
+	color: #999;
+	letter-spacing: 0.5px;
+	line-height: 25px;
+}

@@ -1,0 +1,99 @@
+.container {
+  padding: 120px;
+  background-color: #f8f8f8;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 80px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.item {
+  margin: 0 1rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.description {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .items {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 30px;
+    align-items: center;
+  }
+
+  .items {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.inschijven {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background-image: url("/affiliate/background.png");
+  background-size: cover;
+  align-items: center;
+  padding: 150px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title2 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.description2 {
+  width: 550px;
+  text-align: center;
+  margin: 0px auto 10px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  @apply bg-main;
+  color: white;
+  margin: 0 5px; 
+  padding: 12px 20px;
+}

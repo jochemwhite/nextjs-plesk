@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  padding: 1rem 1.25rem;
+  background-color: rgb(253, 253, 253);
+}
+
+.image_container {  
+  display: flex;
+  justify-content: center;
+}
+
+.text_container {
+  
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text_container h1 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .image_container {
+    margin-right: 2rem;
+    justify-content: flex-start;
+  }
+
+  .text_container {
+    grid-row: 1;
+    margin-left: 2rem;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: left;
+  }
+  .text_container p {
+    width: 25rem;
+  }
+}
